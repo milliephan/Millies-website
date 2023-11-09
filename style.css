@@ -1,10 +1,13 @@
 body {
     margin: 0;
     width: 100%;
-    margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
     background-image: url("/Assets/bg.png");
     background-repeat: no-repeat;
+}
+
+p {
+    margin: 0;
 }
 
 img {
@@ -88,3 +91,64 @@ h1 {
     margin: 4rem 236px 4rem 236px;
 }
 
+.intro {
+    width: 40%;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+h3 span {
+    color: #E27AC1;
+}
+
+.pink {
+    background-color: #E27AC1;
+    color: white;
+    padding: 0px 0.5rem 0px 0.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.intro p {
+    line-height: 1.3125rem;
+}
+
+/* Experience Timeline */
+.box {
+    background-color: #E0EAED;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    width: 30rem;
+    color: 6495A4;
+    color: #6495A4;
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+}
+
+.location {
+    background-color: white;
+    padding: 0px 0.5rem 0px 0.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+.box li {
+    color: black;
+    font-weight: 300;
+    line-height: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.box ul {
+    padding: 0;
+}
