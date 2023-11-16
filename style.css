@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
-  background-image: url("Assets/bg.png");
+  background-image: url(".Assets/bg.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
